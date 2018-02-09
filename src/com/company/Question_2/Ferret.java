@@ -1,6 +1,6 @@
 package com.company.Question_2;
 
-public class Ferret {
+public class Ferret extends DoStuff{
 
     private boolean likesToPlay;
 
@@ -14,5 +14,9 @@ public class Ferret {
 
     public void setLikesToPlay(boolean likesToPlay) {
         this.likesToPlay = likesToPlay;
+    }
+
+    void makeNoise() {
+        System.out.println("Squeak!");
     }
 }

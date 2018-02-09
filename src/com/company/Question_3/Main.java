@@ -11,5 +11,10 @@ public class Main {
         3. Instantiate the switch class in this main method and run the method you created.
          */
 
+
+        /*I could not get my switch statement to take a string. I got the following error: Error:(13, 16) java: strings in switch are not supported in -source 1.6
+        use -source 7 or higher to enable strings in switch) */
+        Switch q = new Switch();
+        q.platform();
     }
 }

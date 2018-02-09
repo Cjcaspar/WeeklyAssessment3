@@ -12,6 +12,10 @@ public class Main {
 
         /* ANSWER QUESTION HERE:
 
+        Making a class abstract allows us to hide the implementation details of methods within the class, but retain the functionality.
+
+        it puts emphasis on what the code "does" instead of "how".
+
 
 
          */

@@ -1,6 +1,6 @@
 package com.company.Question_2;
 
-public class Cat {
+public class Cat extends DoStuff{
 
     private boolean likesCatnip;
     private boolean usesLitterbox;
@@ -38,5 +38,9 @@ public class Cat {
 
     public void setFurType(String furType) {
         this.furType = furType;
+    }
+
+    void makeNoise() {
+        System.out.println("Meow!");
     }
 }
